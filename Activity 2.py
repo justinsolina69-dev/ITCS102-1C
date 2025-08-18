@@ -1,2 +1,2 @@
 nameinput("What is your name?")
-print("Hi!" name Welcome to the Matrix!")
+print("Hi!"," name, Welcome to the Matrix!")
