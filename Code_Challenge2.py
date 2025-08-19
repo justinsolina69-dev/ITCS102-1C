@@ -25,6 +25,6 @@ print("Thousand_change")
 "Thousand_change = amount - thousand * 5"
 print( "Thousand , _ 5")
 print("Thousand_change")
-"(Thousand_change = amount - thousand * 1")
+"Thousand_change = amount - thousand * 1"
 print( "Thousand , _ 1")
 print("Thousand_change")
