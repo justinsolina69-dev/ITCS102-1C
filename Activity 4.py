@@ -1,3 +1,3 @@
 nameinput("Enter your name player --->")
-print ("Wellcome to the Matrix! "),(name(
-print ("Your name has ", len(name(),"Chapter")
+print ("Welcome to the Matrix! ",(name(
+print ("Your name has ", len(name(),"Chances")
