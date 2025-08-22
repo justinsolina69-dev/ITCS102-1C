@@ -1,3 +1,3 @@
-Username('Lowkey')
-password('6996')
-print("(username=='Lowkey') and (password=='6996')")
+Username(input("Username ...")(
+Password(input("Password ...")(
+print(  Username(=='Lowkey') and (password(=='6996')
