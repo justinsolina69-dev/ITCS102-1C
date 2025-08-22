@@ -1,3 +1,3 @@
-Username(input("Username ...")(
-Password(input("Password ...")(
+Username(input("Username ..."),
+Password(input("Password ..."),
 print(  Username(=='Lowkey') and (password(=='6996')
