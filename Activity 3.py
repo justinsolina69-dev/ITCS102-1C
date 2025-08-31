@@ -1,2 +1,2 @@
-print ("Magandang Hapon Po :> \n\t\t\tBSIT-1C")
-print ("The Quick Brown Fox \rJump Over The Lazy \fDog")
+print ("Magandang Hapon Po :> ", \n\t\t\t ,"BSIT-1C ")
+print ("The Quick Brown Fox ", \r ,"Jump Over The Lazy ", \f ," Dog")
