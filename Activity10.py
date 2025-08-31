@@ -4,5 +4,5 @@ u = input("USERNAME ...---> ")
 p  = input("PASSWORD ...---> ")
 if (u == username and p == password:
 print("Access Granted")
-else:
+else: 
 print("Access Denied")
