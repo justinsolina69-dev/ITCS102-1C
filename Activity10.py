@@ -1,8 +1,9 @@
-username = 'lian'
-password = 'pogiako123'
-u = input("USERNAME ...---> ")
-p  = input("PASSWORD ...---> ")
-if (u == username and p == password:
+username = 'LOWKEY'
+password = '999'
+u = input("Enter your username")
+p  = input("Enter your password ")
+if (u == username and p ==password:
 print("Access Granted")
 else: 
 print("Access Denied")
+ 
