@@ -19,7 +19,7 @@ if Year == "2000":
 #2
 if Genre.lower() == "Romance":
     Answer = "Genre"
-    print(" \n You selected", answer)
+    print(" \n You selected", Answer)
     
 if Size.lower() == "medium":
     Answer = "Size"
