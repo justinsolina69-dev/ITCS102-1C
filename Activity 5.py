@@ -1,3 +1,3 @@
-nameeval(input("Type anything :>......"))
-print("The data type of name is "),(typename(),
+name = eval(input("Type anything :"))
+print("The data type name is"),type(name))
                                     
