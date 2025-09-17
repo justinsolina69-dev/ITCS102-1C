@@ -1,30 +1,40 @@
-amounteval(input(" Enter you amount deposit :> "))
-print("Here is the breakdown of your deposit")
-"Thousand + amount //1000"
-"Thousand_change = amount - thousand * 1000"
-print( "Thousand , _ 1000")
-print("Thousand_change")
-"Thousand_change = amount - thousand * 500"
-print( "Thousand , _ 500")
-print("Thousand_change")
-"Thousand_change = amount - thousand * 200"
-print( "Thousand , _ 200")
-print("Thousand_change")
-"Thousand_change = amount - thousand * 100"
-print( "Thousand , _ 100")
-print("Thousand_change")
-"Thousand_change = amount - thousand * 50"
-print( "Thousand , _ 50")
-print("Thousand_change")
-"Thousand_change = amount - thousand * 20"
-print( "Thousand , _ 20")
-print("Thousand_change")
-"Thousand_change = amount - thousand * 10"
-print( "Thousand , _ 10")
-print("Thousand_change")
-"Thousand_change = amount - thousand * 5"
-print( "Thousand , _ 5")
-print("Thousand_change")
-"Thousand_change = amount - thousand * 1"
-print( "Thousand , _ 1")
-print("Thousand_change")
+Amount = eval(input(" Hi Please ENTER Withdraw amount : "))
+print("Here's the breakdown ...")
+
+Thousand = Amount // 1000
+Amount %= 1000
+
+FiveHundred = Amount // 500
+Amount %= 500
+
+TwoHundred = Amount // 200
+Amount %= 200
+
+OneHundred = Amount // 100
+Amount %= 100
+
+Fifty = Amount // 50
+Amount %= 50
+
+Twenty = Amount // 20
+Amount %= 20
+
+Ten = Amount // 10
+Amount %= 10
+
+Five = Amount // 5
+Amount %= 5
+
+One = Amount // 1
+Amount %= 1
+
+print(" ₱1000:", Thousand )
+print(" ₱500:", FiveHundred )
+print(" ₱200:", TwoHundred )
+print(" ₱100:", OneHundred)
+print(" ₱50:", Fifty)
+print(" ₱20:", Twenty )
+print(" ₱10:", Ten )
+print(" ₱5:", Five )
+print(" ₱1:", One)
+
