@@ -1,3 +1,3 @@
 name = input("Enter your name player --->")
 print("Hello ",name, "Welcome to the Matrix! ")
-print("Your name hav",len(name("Chances")
+print("Your name have",len(name("Chances"))
