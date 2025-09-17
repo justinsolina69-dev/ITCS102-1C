@@ -1,3 +1,4 @@
+#factorial program
 sum = 1
 for i in range (1,11,1):
     number = eval(input("enter amount: "))
