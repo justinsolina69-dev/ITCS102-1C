@@ -6,39 +6,39 @@ Year = input("Select year you want \n (2000/2005/2010) : ")
 
 #1
 if Genre.lower() == "Fantasy":
-    print(" \n You selected: ", Genre)
-    if Year == "2000":
-        print("  I recommend: \n Moonlight ")
-    elif Year == "2005":
-        print(" I recommend: \n Berserk ")
-    elif Year == "2010":
-        print(" I recommend: \n Zom100 ")
-    else:
-        print("  \n Sorry we dont have Fantasy mangga Available ")
+    if Size.lower() == "Short":
+        print(" \n You selected: ", Size )
+        if Year == "2000":
+            print("  I recommend: \n Moonlight ")
+            if Year == "2005":
+                print(" I recommend: \n Berserk ")
+                if Year == "2010":
+                    print(" I recommend: \n Zom100 ")
+                 
+               
     
 #2 
 if Genre.lower() == "Romance":
-    print(" \n You selected: ", Genre)
-    if Year == "2000":
-        print(" I recommend: \n AttackOnTitan ")
-    elif Year == "2005":
-        print(" \n I recommend: \n  Cleavates ")
-    elif Year == "2010":
-        print(" \n I recommend: \n Darkness ")
-    else:
-        print("  \n Sorry we dont have Romance mangga Available ")
+     if Size.lower() == "medium":
+         print(" \n You selected: ", Genre)
+         if Year == "2000":
+             print(" I recommend: \n AttackOnTitan ")
+             if Year == "2005":
+                 print(" \n I recommend: \n  Cleavates")
+                 if Year == "2010":
+                     print(" \n I recommend: \n Darkness ")
+              
     
 #3
 if Genre.lower() == "Horror":
-    print("You selected: ", Genre)
-    if Year == "2000":
-        print("I recommend:  \n Highland"  )
-    elif Year == "2005":
-        print(" I recommend:  \n Promise never land" )
-    elif Year == "2010":
-        print(" I recommend:  \n Doomsday ")
-        else:
-            print("  \n Sorry we dont have Horror mangga  Available ")
+     if Size.lower() == "long":
+         print("You selected: ", Genre)
+         if Year == "2000":
+             print("I recommend:  \n Highland"  )
+             if Year == "2005":
+                 print(" I recommend:  \n Promise never land")
+                 if Year == "2010":
+                     print(" I recommend:  \n Doomsday ")
 else:
-print("Sorry we dont have Available mangga ")
+    print("Sorry we dont have Available mangga ")
 
