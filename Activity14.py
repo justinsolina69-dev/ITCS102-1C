@@ -1,1 +1,3 @@
-
+#Act14
+for b in range (23,0,-1):
+    print("/n/t result", b)
