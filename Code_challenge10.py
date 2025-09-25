@@ -1,6 +1,6 @@
 #CC10
 #Nested Loop 
-for J in range(1,12,1):
-        for S in range(1, J, 1):
-            print(S, end= " ") 
-        print()
+for J in range (10,0,-1):
+        for S in range (J):
+            print("S", end= " ")
+        print( )        
