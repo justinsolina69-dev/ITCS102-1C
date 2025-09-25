@@ -1,1 +1,9 @@
 
+numero = eval(input("Enter a number: "))
+sum = 0
+print("Here's the result:")
+for S in range(1,11,):
+ print(numero ,  "x", S ,  "=", numero * S)
+ 
+ 
+
