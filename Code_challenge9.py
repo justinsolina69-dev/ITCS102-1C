@@ -1,1 +1,11 @@
+#CC9
+print("BALLISTIC MISSILE COUNT DOWN!")
 
+Count_Down = int(input("Enter a starting number for the countdown: "))
+
+print("\n The Count Down is Starting! :")
+
+for C in range(Count_Down, 0, -1):
+    print(C)
+
+print("MISSILE LIFT OFFFFFFFF! \n MISSION SUCCESFULLY \n WELL DONE SOLDIER! ")
