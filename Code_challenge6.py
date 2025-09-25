@@ -4,8 +4,8 @@ print("Enter 10 numbers. We'll sum only the odd ones!\n")
 odd_sum = 0
 
 for A in range(1, 11):
-  number  = int(input(f" Enter number {A}: "))
-  if num % 2 != 0:
+  number  = int(input(f" Enter a number {A}: "))
+  if number % 2 != 0:
     odd_sum += number
     
 print(f" \n The sum of all odd numbers: {odd_sum}")
