@@ -1,3 +1,4 @@
+# Odd number 
 print(" ODD NUMBER ACCUMULATOR")
 print("Enter 10 numbers. We'll sum only the odd ones!\n")
 
