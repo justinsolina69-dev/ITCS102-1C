@@ -1,3 +1,4 @@
+# CC7
 # Odd number 
 print(" ODD NUMBER ACCUMULATOR")
 print("Enter 10 numbers. We'll sum only the odd ones!\n")
@@ -10,6 +11,4 @@ for A in range(1, 11):
     odd_sum += number
     
 print(f" \n The sum of all odd numbers: {odd_sum}")
-
-
 
