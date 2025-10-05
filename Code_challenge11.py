@@ -1,1 +1,9 @@
-
+print("\t\t *", end="")
+for J in range(1,11,1):
+  for S in range(11,J,-1):
+    print("", end=" ")
+  for O in range(1,J,1):
+    print("*", end=" ")
+  for A in range(1,J,1):
+    print("*", end=" ")
+print()
