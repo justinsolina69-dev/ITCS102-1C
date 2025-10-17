@@ -1,13 +1,1 @@
-#While loop
-name = input("Hi what's your name ?:")
-Madumi = True #boolean stopping point
-
-while Madumi == True:
-    Damit = input(" Do you want to wash the clothes? (yes/no):").lower()
-    
-    if Damit == "yes":
-        print(f"\nWash it again",name,"?")
-        continue
-    else:
-      print("\nMake it  stop baby")
-      break
+#while loop
