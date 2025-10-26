@@ -1,29 +1,32 @@
+#Code_challenge14.py 
+#While loop
+# Hanime_Title
+name = input(" Welcome my fellow weeb  \nEnter your Character name :\n")
 
-#Code_challenge13.py
-print("+++++++++++++++++++++")
-print("ODD NUMBER SELECTION, press the  0 to stop the loop")
-print("+++++++++++++++++++++")
-name = input("Enter your name-->:")
+Hanime_list = []
 
-S = 0
-O = " "
-T = True
-while T  == "True":
-    num = eval(input("Guess a number from Odd number ")) 
-    if num %  2 == 1:
-        S += num 
-        O += (num) + " "
-        print(" # ODD NUMBER DETECTED.")
-        continue
-    elif num == 0:
-        print("# THE LOOP HAS BEEN COMPLETED")
-        break
-else:
-     if num % 2 == 0:
-                print("# EVEN NUMBER DETECTED")
-               else:
-                print("Invalid number ")
-          continue
-print(f" Hi {name} , the sum of all odd numbers in {S} ")
-print(f"# ODD NUMBERS includes the ff :>{O}")
+I_love_you = True
+
+while I_love_you == True:
+
+    Hanime_Title= input("Enter any Title.(and type \"exit\" to stop): ").lower()
+
+
+    if Hanime_Title.lower() == "exit":
+
+        print("You have exited the anime entry program")
+
+        I_love_you = False
+
+        
+
+    else:
+
+        Hanime_list.append(Hanime_Title)
+
+print("Your anime list includes: ")
+
+for Hanime_Title in Hanime_list:
+
+    print(f"-->{Hanime_Title}")
 
