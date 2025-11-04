@@ -1,4 +1,3 @@
-
 #While loop
 name = input("Hi what's your name ?:")
 Mahal_moba = True #boolean stopping point
